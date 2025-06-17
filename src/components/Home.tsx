@@ -19,7 +19,7 @@ export default function Home() {
 					Development, with hands-on experience in Back-End Development as well.
 					Currently, I am focused on expanding my portfolio by creating personal
 					projects that showcase my skills in building responsive, user-friendly
-					web applications.
+					web applicationss.
 				</p>
 
 				<button className='bg-tertiary mt-4 h-8 w-46 cursor-pointer rounded-lg text-white sm:mt-6 sm:h-10 sm:w-54 sm:text-lg lg:w-60 lg:text-lg 2xl:h-12 2xl:w-64 2xl:text-xl'>
