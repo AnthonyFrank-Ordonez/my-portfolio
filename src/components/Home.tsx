@@ -4,7 +4,7 @@ export default function Home() {
 			id='home'
 			className='mx-auto grid grid-cols-1 px-8 py-10 sm:px-18 sm:py-12 md:grid-cols-2 lg:mx-10 lg:px-25 xl:mx-auto xl:max-w-7xl 2xl:max-w-[95rem]'
 			style={{
-				backgroundImage: 'url(/public/img/bg.png)',
+				backgroundImage: 'url(/img/bg.png)',
 			}}
 		>
 			<div className='mx-auto flex flex-col items-start md:mt-20 md:justify-center'>
@@ -31,7 +31,7 @@ export default function Home() {
 				<div className='relative mt-7 inline-block md:max-w-xl'>
 					<div className='bg-tertiary absolute bottom-0 left-1/2 h-8/12 w-3/4 -translate-x-1/2 rounded-t-lg'></div>
 					<img
-						src='/public/img/me-1.png'
+						src='/img/me-1.png'
 						alt='me'
 						className='relative z-10 h-auto max-h-[33rem] w-auto md:max-h-[28rem] lg:max-h-[30rem] 2xl:max-h-[35rem]'
 					/>
