@@ -108,21 +108,21 @@ export default function Header() {
 					>
 						<div className='text-secondary flex flex-col space-y-8 px-8 py-3 text-lg'>
 							<a
-								href='#'
+								href='#home'
 								aria-label='home'
 								className='hover:decoration-tertiary hover:underline'
 							>
 								Home
 							</a>
 							<a
-								href='#'
+								href='#about'
 								aria-label='about'
 								className='hover:decoration-tertiary hover:underline'
 							>
 								About
 							</a>
 							<a
-								href='#'
+								href='#skills'
 								aria-label='skills'
 								className='hover:decoration-tertiary hover:underline'
 							>
