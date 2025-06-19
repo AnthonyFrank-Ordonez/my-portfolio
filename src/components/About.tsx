@@ -17,7 +17,7 @@ export default function About() {
 				loading='lazy'
 				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-5'
 			/>
-			<div className='mx-auto grid max-w-lg grid-cols-1 px-8 py-15 md:max-w-[65rem] md:grid-cols-[150px_3fr] md:gap-12 md:px-13 lg:mx-10 lg:max-w-6xl lg:grid-cols-[200px_3fr] xl:mx-auto xl:max-w-[75rem] 2xl:mx-auto 2xl:mt-25 2xl:max-w-[86rem] 2xl:py-30'>
+			<div className='mx-auto grid max-w-lg grid-cols-1 px-8 py-15 md:max-w-[65rem] md:grid-cols-[150px_3fr] md:gap-12 md:px-13 lg:mx-10 lg:max-w-6xl lg:grid-cols-[200px_3fr] xl:mx-auto xl:max-w-[75rem] 2xl:mx-auto 2xl:mt-25 2xl:max-w-[86rem]'>
 				<div className='md:border-r-secondary/20 hidden md:mx-auto md:flex md:w-full md:flex-col md:items-start md:justify-center md:gap-5 md:border-r md:px-5 xl:gap-9'>
 					<div className='flex flex-col items-center justify-center'>
 						<BsCodeSlash className='text-tertiary h-10 w-10 xl:h-12 xl:w-12 2xl:h-14 2xl:w-14' />
