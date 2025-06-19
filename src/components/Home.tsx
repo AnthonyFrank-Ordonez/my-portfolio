@@ -2,7 +2,7 @@ export default function Home() {
 	return (
 		<section
 			id='home'
-			className='mx-auto grid grid-cols-1 px-8 py-10 sm:px-18 sm:py-12 md:grid-cols-2 lg:mx-10 lg:px-25 xl:mx-auto xl:max-w-7xl 2xl:max-w-[95rem]'
+			className='mx-auto grid grid-cols-1 px-8 py-10 sm:px-18 sm:py-12 md:grid-cols-2 lg:px-25 xl:mx-auto xl:max-w-7xl 2xl:max-w-[95rem] 2xl:py-28'
 			style={{
 				backgroundImage: 'url(/img/bg.png)',
 			}}
@@ -14,7 +14,7 @@ export default function Home() {
 				<h2 className='text-secondary text-4xl sm:mt-2 sm:text-5xl lg:mt-1 lg:text-6xl 2xl:text-7xl'>
 					Anthony Frank Ordoñez
 				</h2>
-				<p className='font-saira mt-1.5 max-w-md text-left text-sm text-white sm:mt-3 sm:text-[14px] lg:mt-2 lg:max-w-lg 2xl:max-w-xl 2xl:text-[15px]'>
+				<p className='font-saira mt-1.5 max-w-md text-left text-sm text-white sm:mt-3 sm:text-[14px] lg:mt-2 lg:max-w-lg 2xl:max-w-xl 2xl:text-[18px]'>
 					Tony for short, I am a Software Engineer specializing in Front-End
 					Development, with hands-on experience in Back-End Development as well.
 					Currently, I am focused on expanding my portfolio by creating personal
