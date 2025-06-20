@@ -17,7 +17,7 @@ export default function About() {
 				loading='lazy'
 				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-5'
 			/>
-			<div className='mx-auto grid max-w-lg grid-cols-1 px-8 py-15 md:max-w-[65rem] md:grid-cols-[150px_3fr] md:gap-12 md:px-13 lg:mx-10 lg:max-w-6xl lg:grid-cols-[200px_3fr] xl:mx-auto xl:max-w-[75rem] 2xl:mx-auto 2xl:mt-25 2xl:max-w-[86rem]'>
+			<div className='mx-auto grid max-w-lg grid-cols-1 px-8 py-15 md:max-w-[65rem] md:grid-cols-[150px_3fr] md:gap-12 md:px-13 lg:mx-10 lg:max-w-6xl lg:grid-cols-[200px_3fr] xl:mx-auto xl:max-w-[75rem] xl:py-25 2xl:mx-auto 2xl:mt-35 2xl:max-w-[86rem] 2xl:items-center 2xl:justify-center 2xl:py-55'>
 				<div className='md:border-r-secondary/20 hidden md:mx-auto md:flex md:w-full md:flex-col md:items-start md:justify-center md:gap-5 md:border-r md:px-5 xl:gap-9'>
 					<div className='flex flex-col items-center justify-center'>
 						<BsCodeSlash className='text-tertiary h-10 w-10 xl:h-12 xl:w-12 2xl:h-14 2xl:w-14' />
@@ -72,7 +72,7 @@ export default function About() {
 							<div className='flex flex-col'>
 								<div className='flex flex-row items-center justify-center gap-2'>
 									<BsBox className='text-tertiary mb-1 h-7 w-7 2xl:h-10 2xl:w-10' />
-									<h2 className='text-secondary text-5xl 2xl:text-6xl'>8</h2>
+									<h2 className='text-secondary text-5xl 2xl:text-6xl'>12</h2>
 								</div>
 								<h2 className='text-secondary border-b-tertiary border-b-1 text-[1.65rem] 2xl:text-[2.3rem]'>
 									Tech Stacks
@@ -144,7 +144,7 @@ export default function About() {
 						<div className='flex flex-col items-center justify-center'>
 							<div className='flex flex-row items-center justify-center gap-2'>
 								<BsBox className='text-tertiary mb-1 h-7 w-7 sm:h-8 sm:w-8' />
-								<h2 className='text-secondary text-4xl sm:text-5xl'>8</h2>
+								<h2 className='text-secondary text-4xl sm:text-5xl'>12</h2>
 							</div>
 							<h2 className='text-secondary border-b-tertiary border-b-1 text-xl sm:text-3xl'>
 								Tech Stacks

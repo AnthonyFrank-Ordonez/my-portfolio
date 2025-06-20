@@ -13,12 +13,12 @@ export default function Header() {
 			animate={{ opacity: 1 }}
 			transition={{ duration: 0.6, ease: 'easeInOut' }}
 		>
-			<nav className='flex items-center justify-between px-8 py-5 lg:px-10 lg:py-5 xl:px-12 xl:py-5 2xl:px-20 2xl:py-7'>
-				<div className='text-secondary flex items-center text-xl 2xl:text-2xl'>
+			<nav className='flex items-center justify-between px-8 py-5 lg:px-10 lg:py-5 xl:max-w-[95rem] xl:px-12 xl:py-5 2xl:mx-auto 2xl:max-w-[115rem] 2xl:px-20 2xl:py-7'>
+				<div className='text-secondary flex items-center text-xl md:px-9 lg:px-10 xl:px-15 2xl:px-30 2xl:text-2xl'>
 					<span>Tony.Dev</span>
 				</div>
 
-				<div className='text-secondary hidden items-center space-x-8 px-12 text-lg md:flex 2xl:text-2xl'>
+				<div className='text-secondary 2xl:max-w-auto hidden items-center space-x-8 px-12 text-lg md:flex 2xl:text-2xl'>
 					<a
 						href='#home'
 						aria-label='home'
