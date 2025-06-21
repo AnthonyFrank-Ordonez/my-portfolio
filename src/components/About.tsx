@@ -17,8 +17,8 @@ export default function About() {
 				loading='lazy'
 				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-5'
 			/>
-			<div className='mx-auto grid max-w-lg grid-cols-1 px-8 py-15 md:max-w-[65rem] md:grid-cols-[150px_3fr] md:gap-12 md:px-13 lg:mx-10 lg:max-w-6xl lg:grid-cols-[200px_3fr] xl:mx-auto xl:max-w-[75rem] xl:py-25 2xl:mx-auto 2xl:mt-35 2xl:max-w-[86rem] 2xl:items-center 2xl:justify-center 2xl:py-55'>
-				<div className='md:border-r-secondary/20 hidden md:mx-auto md:flex md:w-full md:flex-col md:items-start md:justify-center md:gap-5 md:border-r md:px-5 xl:gap-9'>
+			<div className='mx-auto grid max-w-lg grid-cols-1 px-8 py-15 md:max-w-[65rem] md:grid-cols-[150px_3fr] md:gap-12 md:px-13 lg:mx-10 lg:max-w-6xl lg:grid-cols-[200px_3fr] xl:mx-auto xl:max-w-[75rem] xl:py-10 2xl:mx-auto 2xl:mt-35 2xl:max-w-[93rem] 2xl:items-center 2xl:justify-center 2xl:py-40'>
+				<div className='md:border-r-secondary/20 hidden md:mx-auto md:flex md:w-full md:flex-col md:items-start md:justify-center md:gap-25 md:border-r md:px-5 xl:gap-25'>
 					<div className='flex flex-col items-center justify-center'>
 						<BsCodeSlash className='text-tertiary h-10 w-10 xl:h-12 xl:w-12 2xl:h-14 2xl:w-14' />
 						<h2 className='text-secondary text-[2rem] 2xl:text-[2.5rem]'>
@@ -55,6 +55,7 @@ export default function About() {
 					<h2 className='text-4xl sm:text-5xl md:text-5xl lg:text-6xl 2xl:text-7xl'>
 						About Me
 					</h2>
+
 					<p className='font-saira sm:text-md mt-3 max-w-md text-sm sm:mt-4 md:mt-3 md:max-w-[41rem] md:text-[15px] lg:max-w-[60rem] xl:max-w-[49rem] xl:text-[17px] 2xl:max-w-[62rem] 2xl:text-[18px]'>
 						I started my software development journey, driven by curiosity and a
 						passion for building things that make a difference. Over the years,
@@ -63,8 +64,24 @@ export default function About() {
 						continuously learn, grow, and contribute to impactful projects.
 					</p>
 
-					<div className='mt-8 hidden md:flex md:flex-col xl:mt-12 2xl:mt-19'>
-						<h2 className='text-secondary text-[2.5rem] lg:text-[2.7rem] xl:text-[3rem] 2xl:text-[4rem]'>
+					<div className='border-tertiary bg-tertiary mt-5 rounded-lg border p-3 sm:mt-10 md:mt-7 md:max-w-2xl lg:max-w-4xl xl:max-w-3xl 2xl:mt-10 2xl:max-w-5xl'>
+						<h2 className='text-3xl sm:text-4xl xl:text-[2.7rem] 2xl:text-[3rem]'>
+							My Current Focus
+						</h2>
+						<p className='font-saira mt-2 text-sm 2xl:text-[18px]'>
+							Currently, I am focused on expanding my expertise across the full
+							development stack while maintaining my core drive to build
+							applications that create meaningful impact. I'm deepening my
+							knowledge in modern frameworks and cloud technologies, with
+							particular emphasis on scalable architectures and user-centered
+							design. My focus remains on continuous learning and contributing
+							to projects that solve real-world problems through intuitive,
+							efficient solutions.
+						</p>
+					</div>
+
+					<div className='mt-8 hidden md:flex md:flex-col xl:mt-6 2xl:mt-10'>
+						<h2 className='text-secondary text-[2.5rem] lg:text-[2.5rem] xl:text-[2.7rem] 2xl:text-[3rem]'>
 							The Journey So Far
 						</h2>
 

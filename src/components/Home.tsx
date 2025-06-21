@@ -1,3 +1,5 @@
+import { FaGithubSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
+
 export default function Home() {
 	return (
 		<section
@@ -14,13 +16,32 @@ export default function Home() {
 				<h2 className='text-secondary text-4xl sm:mt-2 sm:text-5xl lg:mt-1 lg:text-6xl 2xl:text-7xl'>
 					Anthony Frank Ordoñez
 				</h2>
-				<p className='font-saira mt-1.5 max-w-md text-left text-sm text-white sm:mt-3 sm:text-[14px] lg:mt-2 lg:max-w-lg 2xl:max-w-xl 2xl:text-[18px]'>
+				<p className='font-saira mt-1.5 max-w-md text-left text-sm text-white sm:mt-3 sm:text-[14px] lg:mt-2 lg:max-w-lg 2xl:max-w-2xl 2xl:text-[16px]'>
 					Tony for short, I am a Software Engineer specializing in Front-End
 					Development, with hands-on experience in Back-End Development as well.
 					Currently, I am focused on expanding my portfolio by creating personal
 					projects that showcase my skills in building responsive, user-friendly
 					web applicationss.
 				</p>
+
+				<p className='font-saira mt-1.5 max-w-md text-left text-sm text-white sm:mt-3 sm:text-[14px] lg:mt-5 lg:max-w-lg 2xl:max-w-xl 2xl:text-[16px]'>
+					Feel free to browse my projects or get in touch by sending a direct
+					message to the social media account listed below.
+				</p>
+
+				<div className='text-secondary mt-4 flex flex-row gap-3'>
+					<a href='https://github.com/AnthonyFrank-Ordonez'>
+						<FaGithubSquare className='md: h-6 w-6' />
+					</a>
+
+					<a href='https://www.linkedin.com/in/anthony-frank-ordo%C3%B1ez-96b0a02a9/'>
+						<FaLinkedin className='md: h-6 w-6' />
+					</a>
+
+					<a href='https://www.instagram.com/ordonezanthonyfrank/'>
+						<FaInstagramSquare className='md: h-6 w-6' />
+					</a>
+				</div>
 
 				<button className='bg-tertiary mt-4 h-8 w-46 cursor-pointer rounded-lg text-white sm:mt-6 sm:h-10 sm:w-54 sm:text-lg lg:w-60 lg:text-lg 2xl:h-12 2xl:w-64 2xl:text-xl'>
 					Download Resume
