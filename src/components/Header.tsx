@@ -41,7 +41,7 @@ export default function Header() {
 						Skills
 					</a>
 					<a
-						href='#'
+						href='#experience'
 						aria-label='experience'
 						className='hover:decoration-tertiary hover:underline'
 					>

@@ -6,6 +6,7 @@ import MainSection from './components/MainSection';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
+import Experience from './components/Experience';
 
 export default function App() {
 	const [isLoading, setLoading] = useState(false);
@@ -34,6 +35,7 @@ export default function App() {
 				<Home />
 				<About />
 				<Skills />
+				<Experience />
 			</MainSection>
 		</>
 	);
