@@ -17,7 +17,6 @@ export default function Experience() {
 
 	const lineHeight = useTransform(smoothProgress, [0, 1], ['0%', '100%']);
 
-	// Your experience data - add more items as needed
 	const experienceData = [
 		{
 			company: 'QStrike Innovations Phils OPC',
@@ -46,7 +45,6 @@ export default function Experience() {
 				'Gained hands-on experience with Git, Jira and Agile Workflows',
 			],
 		},
-		// Add more experience items here
 	];
 
 	return (
@@ -67,7 +65,7 @@ export default function Experience() {
 					<div
 						className='absolute left-[25px] w-0.5 bg-gray-600'
 						style={{
-							top: '48px', // Start from center of first briefcase (12px icon + 36px to center)
+							top: '48px',
 							height: 'calc(100% - 88px)',
 						}}
 					></div>
@@ -76,7 +74,7 @@ export default function Experience() {
 						className='absolute left-[25px] w-0.5 origin-top bg-gradient-to-b from-purple-500 to-purple-700'
 						style={{
 							height: lineHeight,
-							top: '48px', // Start from center of first briefcase
+							top: '48px',
 							maxHeight: 'calc(100% - 64px)',
 						}}
 					/>
