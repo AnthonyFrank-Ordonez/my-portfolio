@@ -111,7 +111,6 @@ export default function Header() {
 								href='#home'
 								aria-label='home'
 								className='hover:decoration-tertiary hover:underline'
-								onClick={() => setTimeout(() => setMenuOpen(false), 70)}
 							>
 								Home
 							</a>
@@ -119,7 +118,6 @@ export default function Header() {
 								href='#about'
 								aria-label='about'
 								className='hover:decoration-tertiary hover:underline'
-								onClick={() => setTimeout(() => setMenuOpen(false), 510)}
 							>
 								About
 							</a>
@@ -127,7 +125,6 @@ export default function Header() {
 								href='#skills'
 								aria-label='skills'
 								className='hover:decoration-tertiary hover:underline'
-								onClick={() => setTimeout(() => setMenuOpen(false), 590)}
 							>
 								Skills
 							</a>
@@ -135,7 +132,6 @@ export default function Header() {
 								href='#experience'
 								aria-label='experience'
 								className='hover:decoration-tertiary hover:underline'
-								onClick={() => setTimeout(() => setMenuOpen(false), 615)}
 							>
 								Experience
 							</a>
@@ -143,7 +139,6 @@ export default function Header() {
 								href='#projects'
 								aria-label='projects'
 								className='hover:decoration-tertiary hover:underline'
-								onClick={() => setTimeout(() => setMenuOpen(false), 620)}
 							>
 								Projects
 							</a>
