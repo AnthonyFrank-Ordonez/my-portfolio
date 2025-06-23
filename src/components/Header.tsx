@@ -119,7 +119,7 @@ export default function Header() {
 								href='#about'
 								aria-label='about'
 								className='hover:decoration-tertiary hover:underline'
-								onClick={() => setTimeout(() => setMenuOpen(false), 460)}
+								onClick={() => setTimeout(() => setMenuOpen(false), 510)}
 							>
 								About
 							</a>
