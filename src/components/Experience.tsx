@@ -75,7 +75,7 @@ export default function Experience() {
 						style={{
 							height: lineHeight,
 							top: '48px',
-							maxHeight: 'calc(100% - 64px)',
+							maxHeight: 'calc(100% - 88px)',
 						}}
 					/>
 

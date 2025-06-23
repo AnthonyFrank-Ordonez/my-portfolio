@@ -6,6 +6,10 @@ import { IoMdClose } from 'react-icons/io';
 export default function Header() {
 	const [isMenuOpen, setMenuOpen] = useState(false);
 
+	// const handleNavClick = () => {
+	// 	setTimeout(() => setMenuOpen(false), 750);
+	// };
+
 	return (
 		<motion.header
 			className='w-full'
@@ -48,7 +52,7 @@ export default function Header() {
 						Experience
 					</a>
 					<a
-						href='#'
+						href='#projects'
 						aria-label='projects'
 						className='hover:decoration-tertiary hover:underline'
 					>
@@ -129,14 +133,14 @@ export default function Header() {
 								Skills
 							</a>
 							<a
-								href='#'
+								href='#experience'
 								aria-label='experience'
 								className='hover:decoration-tertiary hover:underline'
 							>
 								Experience
 							</a>
 							<a
-								href='#'
+								href='#projects'
 								aria-label='projects'
 								className='hover:decoration-tertiary hover:underline'
 							>

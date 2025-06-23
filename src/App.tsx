@@ -7,6 +7,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
 
 export default function App() {
 	const [isLoading, setLoading] = useState(() => {
@@ -32,6 +33,7 @@ export default function App() {
 				<About />
 				<Skills />
 				<Experience />
+				<Projects />
 			</MainSection>
 		</>
 	);
