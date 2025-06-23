@@ -46,7 +46,7 @@ export default function Home() {
 					</button>
 				</div>
 
-				<div className='flex items-center justify-center md:mt-[-4.5rem] md:items-end md:justify-end lg:-mt-19 xl:-mt-48 2xl:-mt-12'>
+				<div className='flex items-center justify-center md:mt-[-4.5rem] md:items-end md:justify-end lg:-mt-19 xl:-mt-52 2xl:-mt-12'>
 					<div className='relative mt-7 inline-block md:max-w-xl'>
 						<div className='bg-tertiary absolute bottom-0 left-1/2 h-8/12 w-3/4 -translate-x-1/2 rounded-t-lg'></div>
 						<img
