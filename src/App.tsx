@@ -9,22 +9,18 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 
 export default function App() {
-	const [isLoading, setLoading] = useState(false);
-
-	useEffect(() => {
+	const [isLoading, setLoading] = useState(() => {
 		const initialLoader = sessionStorage.getItem('loader');
-
 		if (!initialLoader) {
-			setLoading(true);
-
-			const timer = setTimeout(() => {
+			setTimeout(() => {
 				setLoading(false);
 				sessionStorage.setItem('loader', 'true');
 			}, 2000);
 
-			return () => clearTimeout(timer);
+			return true;
 		}
-	}, []);
+		return false;
+	});
 
 	if (isLoading) return <Loader />;
 

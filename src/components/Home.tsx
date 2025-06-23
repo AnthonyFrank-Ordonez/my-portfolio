@@ -11,8 +11,8 @@ export default function Home() {
 				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-5'
 			/>
 
-			<div className='mx-auto grid grid-cols-1 px-8 py-10 sm:px-18 sm:py-12 md:grid-cols-2 md:py-39 lg:px-25 lg:py-35 xl:mx-auto xl:max-w-7xl xl:py-50 2xl:max-w-[98rem] 2xl:py-25'>
-				<div className='mx-auto flex flex-col items-start md:justify-start lg:mt-25 xl:-mt-15 2xl:mt-35'>
+			<div className='mx-auto grid grid-cols-1 px-8 py-10 sm:px-18 sm:py-12 md:grid-cols-2 md:py-39 lg:px-25 lg:py-35 xl:mx-auto xl:max-w-7xl xl:py-55 2xl:max-w-[98rem] 2xl:py-25'>
+				<div className='mx-auto flex flex-col items-start md:justify-start lg:mt-25 xl:-mt-8 2xl:mt-35'>
 					<h2 className='text-secondary bg-tertiary py-0.2 sm:text-lg:text-2xl mb-3 flex items-center rounded-xs px-2 text-lg shadow-lg 2xl:text-2xl'>
 						Hi, My name is
 					</h2>
@@ -46,7 +46,7 @@ export default function Home() {
 					</button>
 				</div>
 
-				<div className='flex items-center justify-center md:mt-[-4.5rem] md:items-end md:justify-end lg:-mt-19 xl:-mt-55 2xl:-mt-12'>
+				<div className='flex items-center justify-center md:mt-[-4.5rem] md:items-end md:justify-end lg:-mt-19 xl:-mt-48 2xl:-mt-12'>
 					<div className='relative mt-7 inline-block md:max-w-xl'>
 						<div className='bg-tertiary absolute bottom-0 left-1/2 h-8/12 w-3/4 -translate-x-1/2 rounded-t-lg'></div>
 						<img
