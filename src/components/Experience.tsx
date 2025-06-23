@@ -48,7 +48,15 @@ export default function Experience() {
 	];
 
 	return (
-		<section id='experience'>
+		<section id='experience' className='relative'>
+			<img
+				src='/img/bg.png'
+				alt='geometry-lines'
+				crossOrigin='anonymous'
+				loading='lazy'
+				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-1'
+			/>
+
 			<div className='mx-auto grid max-w-lg grid-cols-1 px-8 py-8 md:mx-10 md:max-w-[60rem] md:py-15 lg:mx-20 lg:max-w-[70rem] xl:mx-auto xl:max-w-[70rem] 2xl:max-w-[88rem]'>
 				<motion.h2
 					initial={{ opacity: 0, y: -20 }}

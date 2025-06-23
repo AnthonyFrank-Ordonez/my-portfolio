@@ -8,7 +8,7 @@ export default function Home() {
 				alt='geometry-lines'
 				crossOrigin='anonymous'
 				loading='lazy'
-				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-5'
+				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-1'
 			/>
 
 			<div className='mx-auto grid grid-cols-1 px-8 py-10 sm:px-18 sm:py-12 md:grid-cols-2 md:py-39 lg:px-25 lg:py-35 xl:mx-auto xl:max-w-7xl xl:py-55 2xl:max-w-[98rem] 2xl:py-25'>

@@ -15,7 +15,7 @@ export default function About() {
 				alt='geometry-lines'
 				crossOrigin='anonymous'
 				loading='lazy'
-				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-5'
+				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-1'
 			/>
 			<div className='mx-auto grid max-w-lg grid-cols-1 px-8 py-15 md:max-w-[65rem] md:grid-cols-[150px_3fr] md:gap-12 md:px-13 lg:mx-10 lg:max-w-6xl lg:grid-cols-[200px_3fr] xl:mx-auto xl:max-w-[75rem] xl:py-20 2xl:mx-auto 2xl:mt-35 2xl:max-w-[93rem] 2xl:items-center 2xl:justify-center 2xl:py-35'>
 				<div className='md:border-r-secondary/20 hidden md:mx-auto md:flex md:w-full md:flex-col md:items-start md:justify-center md:gap-25 md:border-r md:px-5 xl:gap-38'>
