@@ -5,7 +5,7 @@ export default function Projects() {
 	const projects = [
 		{
 			name: 'BookSyde E-Commerce',
-			date: 'Feb 2025 - Apr 2025',
+			date: 'Jun 2025 - Present',
 			image: '/img/booksyde.png',
 			techStack: [
 				'Tanstack Start',
@@ -26,7 +26,7 @@ export default function Projects() {
 		},
 		{
 			name: 'Ortask',
-			date: 'Jun 2025 - Present',
+			date: 'Feb 2025 - Apr 2025',
 			image: '/img/ortask.png',
 			techStack: [
 				'React',
@@ -40,10 +40,10 @@ export default function Projects() {
 				'Mongoose',
 				'Redux',
 			],
-			deployed: false,
+			deployed: true,
 			description:
 				'A React-based frontend application for displaying, managing, and organizing tasks. This application is built with React and Vite, allowing users to create, view, delete, and update their tasks accordingly such as their current status on their tasks.',
-			url: '',
+			url: 'https://ortask.afordonez.com/',
 			githubUrl: 'https://github.com/AnthonyFrank-Ordonez/Ortask-Client-Side',
 		},
 	];
@@ -108,7 +108,7 @@ export default function Projects() {
 
 								<div className='text-secondary flex flex-col gap-3'>
 									<a
-										href={project.githubUrl}
+										href={project.url}
 										className='flex w-full items-center justify-center rounded-md bg-white transition-colors hover:bg-white/80'
 									>
 										<FaRocket className='text-primary -mt-0.9 2xl:-mt-0.9 -mr-2.5 h-3 w-3 2xl:h-4 2xl:w-5' />
