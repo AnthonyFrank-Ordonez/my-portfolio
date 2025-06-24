@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import FadeInContainer from './AnimatedContainers/FadeInContainer';
 
 export default function Skills() {
 	const [activeFilter, setActiveFilter] = useState('All');
@@ -45,7 +46,7 @@ export default function Skills() {
 				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-1'
 			/>
 
-			<div className='mx-auto max-w-lg px-8 py-8 md:mx-10 md:max-w-[60rem] md:py-18 lg:mx-20 lg:max-w-[70rem] xl:mx-auto xl:max-w-[70rem] 2xl:mt-35 2xl:max-w-[88rem]'>
+			<FadeInContainer className='mx-auto max-w-lg px-8 py-8 md:mx-10 md:max-w-[60rem] md:py-18 lg:mx-20 lg:max-w-[70rem] xl:mx-auto xl:max-w-[70rem] 2xl:max-w-[88rem]'>
 				<h2 className='text-secondary text-4xl sm:text-5xl xl:text-6xl 2xl:text-7xl'>
 					Technologies and Tools
 				</h2>
@@ -87,7 +88,7 @@ export default function Skills() {
 						</div>
 					))}
 				</div>
-			</div>
+			</FadeInContainer>
 
 			<style>{`
 				@keyframes fadeInUp {

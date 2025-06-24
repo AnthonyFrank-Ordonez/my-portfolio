@@ -1,4 +1,5 @@
 import { FaGithub, FaRocket } from 'react-icons/fa';
+import FadeInContainer from './AnimatedContainers/FadeInContainer';
 
 export default function Projects() {
 	const projects = [
@@ -57,7 +58,10 @@ export default function Projects() {
 				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-1'
 			/>
 
-			<div className='mx-auto max-w-lg px-8 py-8 md:mx-10 md:max-w-[60rem] lg:mx-20 lg:max-w-[70rem] xl:mx-auto xl:max-w-[70rem] 2xl:max-w-[88rem]'>
+			<FadeInContainer
+				delay={0.4}
+				className='mx-auto max-w-lg px-8 py-8 md:mx-10 md:max-w-[60rem] lg:mx-20 lg:max-w-[70rem] xl:mx-auto xl:max-w-[70rem] 2xl:max-w-[88rem]'
+			>
 				<h2 className='text-secondary mb-10 text-4xl sm:text-5xl xl:mb-20 xl:text-6xl'>
 					Projects
 				</h2>
@@ -127,7 +131,7 @@ export default function Projects() {
 						</div>
 					))}
 				</div>
-			</div>
+			</FadeInContainer>
 		</section>
 	);
 }

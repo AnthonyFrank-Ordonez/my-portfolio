@@ -6,6 +6,8 @@ import {
 	BsBoxes,
 } from 'react-icons/bs';
 import { MdOutlineDesignServices } from 'react-icons/md';
+import ScrollLeftContainer from './AnimatedContainers/ScrollLeftContainer';
+import ScrollRightContainer from './AnimatedContainers/ScrollRightContainer';
 
 export default function About() {
 	return (
@@ -18,7 +20,7 @@ export default function About() {
 				className='absolute inset-0 -z-10 h-full w-full object-cover opacity-1'
 			/>
 			<div className='mx-auto grid max-w-lg grid-cols-1 px-8 py-15 md:max-w-[65rem] md:grid-cols-[150px_3fr] md:gap-12 md:px-13 lg:mx-10 lg:max-w-6xl lg:grid-cols-[200px_3fr] xl:mx-auto xl:max-w-[75rem] xl:py-20 2xl:mx-auto 2xl:mt-35 2xl:max-w-[93rem] 2xl:items-center 2xl:justify-center 2xl:py-35'>
-				<div className='md:border-r-secondary/20 hidden md:mx-auto md:flex md:w-full md:flex-col md:items-start md:justify-center md:gap-25 md:border-r md:px-5 xl:gap-38'>
+				<ScrollLeftContainer className='md:border-r-secondary/20 hidden md:mx-auto md:flex md:w-full md:flex-col md:items-start md:justify-center md:gap-25 md:border-r md:px-5 xl:gap-38'>
 					<div className='flex flex-col items-center justify-center'>
 						<BsCodeSlash className='text-tertiary h-10 w-10 xl:h-12 xl:w-12 2xl:h-14 2xl:w-14' />
 						<h2 className='text-secondary text-[2rem] 2xl:text-[2.5rem]'>
@@ -48,10 +50,10 @@ export default function About() {
 							Development
 						</h2>
 					</div>
-				</div>
+				</ScrollLeftContainer>
 
-				{/* ABout Me */}
-				<div className='text-secondary flex flex-col items-start justify-start md:pr-10 lg:pr-0 lg:pl-5'>
+				{/* About Me */}
+				<ScrollRightContainer className='text-secondary flex flex-col items-start justify-start md:pr-10 lg:pr-0 lg:pl-5'>
 					<h2 className='text-4xl sm:text-5xl md:text-5xl lg:text-6xl 2xl:text-7xl'>
 						About Me
 					</h2>
@@ -117,10 +119,10 @@ export default function About() {
 							</div>
 						</div>
 					</div>
-				</div>
+				</ScrollRightContainer>
 
 				{/* Expertise */}
-				<div className='flex flex-col md:hidden'>
+				<ScrollLeftContainer className='flex flex-col md:hidden'>
 					<h2 className='text-secondary mt-7 text-3xl sm:mt-10 sm:text-4xl'>
 						Areas of Expertise
 					</h2>
@@ -149,10 +151,10 @@ export default function About() {
 							</h2>
 						</div>
 					</div>
-				</div>
+				</ScrollLeftContainer>
 
 				{/* Journey */}
-				<div className='flex flex-col md:hidden'>
+				<ScrollRightContainer className='flex flex-col md:hidden'>
 					<h2 className='text-secondary mt-10 text-3xl sm:mt-12 sm:text-4xl'>
 						The Journey So Far
 					</h2>
@@ -190,7 +192,7 @@ export default function About() {
 							</h2>
 						</div>
 					</div>
-				</div>
+				</ScrollRightContainer>
 			</div>
 		</section>
 	);

@@ -1,4 +1,5 @@
 import { FaGithubSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
+import FadeInContainer from './AnimatedContainers/FadeInContainer';
 
 export default function Home() {
 	return (
@@ -12,7 +13,10 @@ export default function Home() {
 			/>
 
 			<div className='mx-auto grid grid-cols-1 px-8 py-10 sm:px-18 sm:py-12 md:grid-cols-2 md:py-39 lg:px-25 lg:py-35 xl:mx-auto xl:max-w-7xl xl:py-55 2xl:max-w-[98rem] 2xl:py-25'>
-				<div className='mx-auto flex flex-col items-start md:justify-start lg:mt-25 xl:-mt-8 2xl:mt-35'>
+				<FadeInContainer
+					delay={0.3}
+					className='mx-auto flex flex-col items-start md:mt-15 md:justify-start lg:mt-25 xl:-mt-8 2xl:mt-35'
+				>
 					<h2 className='text-secondary bg-tertiary py-0.2 sm:text-lg:text-2xl mb-3 flex items-center rounded-xs px-2 text-lg shadow-lg 2xl:text-2xl'>
 						Hi, My name is
 					</h2>
@@ -44,9 +48,12 @@ export default function Home() {
 					<button className='bg-tertiary mt-4 h-8 w-46 cursor-pointer rounded-lg text-white sm:mt-6 sm:h-10 sm:w-54 sm:text-lg lg:w-60 lg:text-lg 2xl:h-12 2xl:w-64 2xl:text-xl'>
 						Download Resume
 					</button>
-				</div>
+				</FadeInContainer>
 
-				<div className='flex items-center justify-center md:mt-[-4.5rem] md:items-end md:justify-end lg:-mt-19 xl:-mt-52 2xl:-mt-12'>
+				<FadeInContainer
+					delay={0.3}
+					className='flex items-center justify-center md:mt-[-6.5rem] md:items-end md:justify-end lg:-mt-19 xl:-mt-52 2xl:-mt-12'
+				>
 					<div className='relative mt-7 inline-block md:max-w-xl'>
 						<div className='bg-tertiary absolute bottom-0 left-1/2 h-8/12 w-3/4 -translate-x-1/2 rounded-t-lg'></div>
 						<img
@@ -55,7 +62,7 @@ export default function Home() {
 							className='relative z-10 h-auto max-h-[33rem] w-auto md:max-h-[28rem] lg:max-h-[30rem] 2xl:max-h-[35rem]'
 						/>
 					</div>
-				</div>
+				</FadeInContainer>
 			</div>
 		</section>
 	);
