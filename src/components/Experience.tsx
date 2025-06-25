@@ -25,8 +25,8 @@ export default function Experience() {
 			description:
 				'Design, develop, maintain, and contribute to the stability and feature development of Front-End, Ancillary, and R&D projects. Collaborate with cross-functional teams to enhance system functionality, debug and resolve issues, and ensure long-term sustainability through refactoring, optimization, and adherence to industry coding standards.',
 			bulletPoints: [
-				'Design, developed and maintain scalable, maintanable code using latest technologies, such as React, Vue, TypeScript, NestJs, and Node.Js',
-				'Built and design responsive web applications using UIKit, CSS and Vue, for our latest project name dyanmic logo drops',
+				'Design, developed and maintain scalable, maintainable code using latest technologies, such as React, Vue, TypeScript, NestJs, and Node.Js',
+				'Built and design responsive web applications using UIKit, CSS and Vue, for our latest project name dynamic logo drops',
 				'Implemented dynamic text rendering of sport, team and mascot name using NestJs and FabricJs for Back-End and Vue for Front-End, allowing real-time content customization based on data inputs',
 				'Contributed to the continuous improvement of our PDF-Service project and various ancillary and R&D projects by adhering to industry-standard coding practices, optimizing legacy code, and implementing new features to enhance performance and maintainability.',
 				'Designed, maintained, and implemented new features for Vectorsoft and Prolook Design Studio Projects, leading to a improvement in load times and a reduction in redundant function calls and rendering operations.',
@@ -40,7 +40,8 @@ export default function Experience() {
 				'Contributed to the development, maintenance, and refactoring of legacy codebases, resolving various bugs and enhancing code quality, while gaining practical experience in Agile workflows and modern software engineering practices.',
 			bulletPoints: [
 				'Identified and resolved bugs in legacy web applications using Laravel, PHP, JavaScript, and Bootstrap, contributing to improved system reliability and maintainability',
-				'Identified, refactor and fixed bugs in development and staging environments, improving system stability',
+				'Assist and help co-intern set up its local development server, as well as guide on how to resolve and issue a pull request for bug tickets',
+				'Collaborated closely with Software Engineer Supervisor to debug and resolve an issue that prevented reversible uniform from appearing on riddell customizer, resulting in a 100 percent bug correction rate',
 				'Participated in agile development processes and daily standups meetings',
 				'Gained hands-on experience with Git, Jira and Agile Workflows',
 			],
