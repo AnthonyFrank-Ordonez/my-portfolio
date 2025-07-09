@@ -7,7 +7,7 @@ import {
 } from 'react-icons/bs';
 import { MdOutlineDesignServices } from 'react-icons/md';
 import ScrollLeftContainer from './AnimatedContainers/ScrollLeftContainer';
-import ScrollRightContainer from './AnimatedContainers/ScrollRightContainer';
+import FadeInContainer from './AnimatedContainers/FadeInContainer';
 
 export default function About() {
 	return (
@@ -53,7 +53,10 @@ export default function About() {
 				</ScrollLeftContainer>
 
 				{/* About Me */}
-				<ScrollRightContainer className='text-secondary flex flex-col items-start justify-start md:pr-10 lg:pr-0 lg:pl-5'>
+				<FadeInContainer
+					delay={0.3}
+					className='text-secondary flex flex-col items-start justify-start md:pr-10 lg:pr-0 lg:pl-5'
+				>
 					<h2 className='text-4xl sm:text-5xl md:text-5xl lg:text-6xl 2xl:text-7xl'>
 						About Me
 					</h2>
@@ -119,10 +122,10 @@ export default function About() {
 							</div>
 						</div>
 					</div>
-				</ScrollRightContainer>
+				</FadeInContainer>
 
 				{/* Expertise */}
-				<ScrollLeftContainer className='flex flex-col md:hidden'>
+				<FadeInContainer delay={0.3} className='flex flex-col md:hidden'>
 					<h2 className='text-secondary mt-7 text-3xl sm:mt-10 sm:text-4xl'>
 						Areas of Expertise
 					</h2>
@@ -151,10 +154,10 @@ export default function About() {
 							</h2>
 						</div>
 					</div>
-				</ScrollLeftContainer>
+				</FadeInContainer>
 
 				{/* Journey */}
-				<ScrollRightContainer className='flex flex-col md:hidden'>
+				<FadeInContainer delay={0.3} className='flex flex-col md:hidden'>
 					<h2 className='text-secondary mt-10 text-3xl sm:mt-12 sm:text-4xl'>
 						The Journey So Far
 					</h2>
@@ -192,7 +195,7 @@ export default function About() {
 							</h2>
 						</div>
 					</div>
-				</ScrollRightContainer>
+				</FadeInContainer>
 			</div>
 		</section>
 	);
