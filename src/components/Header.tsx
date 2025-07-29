@@ -19,7 +19,6 @@ export default function Header() {
 		setTimeout(() => {
 			const element = document.getElementById(targetId);
 			if (element) {
-				console.log('🚀 ~ setTimeout ~ element:', element);
 				element.scrollIntoView({ behavior: 'smooth' });
 			}
 		}, 100);
