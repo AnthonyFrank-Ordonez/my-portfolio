@@ -59,8 +59,9 @@ export default function Home() {
 					<div className='relative mt-7 inline-block md:max-w-xl'>
 						<div className='bg-tertiary absolute bottom-0 left-1/2 h-8/12 w-3/4 -translate-x-1/2 rounded-t-lg'></div>
 						<img
-							src='/img/me-1.png'
+							src='https://res.cloudinary.com/dcurf3qko/image/upload/v1753792085/me-1_sghe7a.png'
 							alt='me'
+							crossOrigin='anonymous'
 							className='relative z-10 h-auto max-h-[33rem] w-auto md:max-h-[28rem] lg:max-h-[30rem] 2xl:max-h-[35rem]'
 						/>
 					</div>
