@@ -16,7 +16,7 @@ export default function Skills() {
 		{ img: '/img/css.png', name: 'CSS', category: 'Front-End' },
 		{ img: '/img/playwright.png', name: 'Playwright', category: 'Front-End' },
 		{ img: '/img/vitest.png', name: 'Vitest', category: 'Front-End' },
-		{ img: '/img/python.png', name: 'Python', category: 'Back-End' },
+		{ img: '/img/python.png', name: 'Python', category: 'Front-End' },
 		{ img: '/img/express-js.png', name: 'Express', category: 'Back-End' },
 		{ img: '/img/asp-net.png', name: 'ASP.NET', category: 'Back-End' },
 		{ img: '/img/nest.png', name: 'NestJs', category: 'Back-End' },
