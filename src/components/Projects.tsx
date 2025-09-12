@@ -25,6 +25,27 @@ export default function Projects() {
 			githubUrl: 'https://github.com/AnthonyFrank-Ordonez/Booksyde-Ecommerce',
 		},
 		{
+			name: 'Trail Blog',
+			date: 'Sept 2025 - Present',
+			image: '/img/trail.png',
+			techStack: [
+				'Angular',
+				'ASP.NET',
+				'ZardUI',
+				'Typescript',
+				'Tailwind CSS',
+				'Postgresql',
+				'HTML5',
+				'CSS3',
+				'PNPM',
+			],
+			deployed: false,
+			description:
+				'A modern, Reddit-inspired blogging platform built with Angular 20+ where users can share their thoughts, experiences, and engage with a community of like-minded individuals. Built with Angular for Front-End and ASP.NET for its backend',
+			url: '',
+			githubUrl: 'https://github.com/AnthonyFrank-Ordonez/TrailBlog-FrontEnd',
+		},
+		{
 			name: 'Ortask',
 			date: 'Feb 2025 - Apr 2025',
 			image: '/img/ortask.png',
