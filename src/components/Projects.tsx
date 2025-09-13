@@ -42,7 +42,7 @@ export default function Projects() {
 			deployed: false,
 			description:
 				'A modern, Reddit-inspired blogging platform built with Angular 20+ where users can share their thoughts, experiences, and engage with a community of like-minded individuals. Built with Angular for Front-End and ASP.NET for its backend',
-			url: '',
+			url: 'https://trailblog.afordonez.com/',
 			githubUrl: 'https://github.com/AnthonyFrank-Ordonez/TrailBlog-FrontEnd',
 		},
 		{
