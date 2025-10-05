@@ -45,7 +45,7 @@ export default function Home() {
 						</a>
 					</div>
 
-					<a href='/Anthonyfrankordonez_Resume.pdf' download>
+					<a href='#'>
 						<button className='bg-tertiary mt-4 h-8 w-46 cursor-pointer rounded-lg text-white sm:mt-6 sm:h-10 sm:w-54 sm:text-lg lg:w-60 lg:text-lg 2xl:h-12 2xl:w-64 2xl:text-xl'>
 							Download Resume
 						</button>
