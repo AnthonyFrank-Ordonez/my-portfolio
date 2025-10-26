@@ -25,11 +25,12 @@ export default function Experience() {
 			description:
 				'Design, develop, maintain, and contribute to the stability and feature development of Front-End, Ancillary, and R&D projects. Collaborate with cross-functional teams to enhance system functionality, debug and resolve issues, and ensure long-term sustainability through refactoring, optimization, and adherence to industry coding standards.',
 			bulletPoints: [
+				'Contributed to the continuous improvement of the PDF-Service and other R&D projects by adhering to industry-standard coding practices, optimizing legacy code, and implementing new features to enhance performance, scalability, and maintainability',
+				'Designed and built responsive web applications for the Dynamic Logo Drops project using Vue.js, UIKit, and CSS, ensuring smooth UI/UX and seamless adaptability across devices',
+				'Developed a dynamic text rendering feature for sports, team, and mascot names in dynamic logo drops using NestJS, FabricJS, and Vue.js, allowing real-time logo customization based on user input data',
+				'Implemented a text auto-scaling feature using FabricJS and NestJS that calculates the original text width and automatically resizes long text to fit within the designated canvas area, improving UI consistency and user experience',
+				'Designed, maintained, and implemented new features for Vectorsoft and Prolook Design Studio Projects, leading to a improvement in load times and a reduction in redundant function calls and rendering operations',
 				'Design, developed and maintain scalable, maintainable code using latest technologies, such as React, Vue, TypeScript, NestJs, and Node.Js',
-				'Built and design responsive web applications using UIKit, CSS and Vue, for our latest project name dynamic logo drops',
-				'Implemented dynamic text rendering of sport, team and mascot name using NestJs and FabricJs for Back-End and Vue for Front-End, allowing real-time content customization based on data inputs',
-				'Contributed to the continuous improvement of our PDF-Service project and various ancillary and R&D projects by adhering to industry-standard coding practices, optimizing legacy code, and implementing new features to enhance performance and maintainability.',
-				'Designed, maintained, and implemented new features for Vectorsoft and Prolook Design Studio Projects, leading to a improvement in load times and a reduction in redundant function calls and rendering operations.',
 			],
 		},
 		{
@@ -39,11 +40,10 @@ export default function Experience() {
 			description:
 				'Contributed to the development, maintenance, and refactoring of legacy codebases, resolving various bugs and enhancing code quality, while gaining practical experience in Agile workflows and modern software engineering practices.',
 			bulletPoints: [
-				'Identified and resolved bugs in legacy web applications using Laravel, PHP, JavaScript, and Bootstrap, contributing to improved system reliability and maintainability',
-				'Assist and help co-intern set up its local development server, as well as guide on how to resolve and issue a pull request for bug tickets',
-				'Collaborated closely with Software Engineer Supervisor to debug and resolve an issue that prevented reversible uniform from appearing on riddell customizer, resulting in a 100 percent bug correction rate',
-				'Participated in agile development processes and daily standups meetings',
-				'Gained hands-on experience with Git, Jira and Agile Workflows',
+				'Identified, refactored, and fixed bugs in legacy web applications built with Laravel, PHP, JavaScript, and Bootstrap, improving system reliability and maintainability',
+				'Investigated and resolved issues in development and staging environments, enhancing overall system stability and performance',
+				'Collaborated with team members in Agile development processes, including daily stand-up meetings and sprint reviews',
+				'Gained hands-on experience with Git, Jira, and Agile workflows for version control, task tracking, and collaborative development',
 			],
 		},
 	];
