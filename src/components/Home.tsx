@@ -28,7 +28,7 @@ export default function Home() {
 						Development, with hands-on experience in Back-End Development as
 						well. Currently, I am focused on expanding my portfolio by creating
 						personal projects that showcase my skills in building responsive,
-						user-friendly web applicationss.
+						user-friendly web applications.
 					</p>
 
 					<div className='text-secondary mt-4 flex flex-row gap-3'>
