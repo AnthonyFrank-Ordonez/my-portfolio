@@ -29,6 +29,7 @@ export default function Skills() {
 		{ img: '/img/coolify.png', name: 'Coolify', category: 'Tools' },
 		{ img: '/img/git.png', name: 'Git', category: 'Tools' },
 		{ img: '/img/uikit.png', name: 'UIKit', category: 'Front-End' },
+		{ img: '/img/docker.png', name: 'Docker', category: 'Tools' },
 		{ img: '/img/postman.png', name: 'Postman', category: 'Tools' },
 		{ img: '/img/insomnia.png', name: 'Insomnia', category: 'Tools' },
 	];
