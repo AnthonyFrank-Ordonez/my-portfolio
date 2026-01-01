@@ -114,7 +114,7 @@ export default function About() {
 							<div className='flex flex-col'>
 								<div className='flex flex-row items-center justify-center gap-2'>
 									<BsBox className='text-tertiary sw-8 mb-1 h-7 w-7 2xl:h-10 2xl:w-10' />
-									<h2 className='text-secondary text-5xl 2xl:text-6xl'>1.10+</h2>
+									<h2 className='text-secondary text-5xl 2xl:text-6xl'>1.11+</h2>
 								</div>
 								<h2 className='text-secondary border-b-tertiary w-24 border-b-1 text-[1.65rem] 2xl:w-34 2xl:text-[2.3rem]'>
 									Experience
@@ -188,7 +188,7 @@ export default function About() {
 						<div className='flex flex-col items-center justify-center'>
 							<div className='flex flex-row items-center justify-center gap-1'>
 								<BsDuffle className='text-tertiary mb-1 h-7 w-7 sm:h-8 sm:w-8' />
-								<h2 className='text-secondary text-4xl sm:text-5xl'>1.10+</h2>
+								<h2 className='text-secondary text-4xl sm:text-5xl'>1.11+</h2>
 							</div>
 							<h2 className='text-secondary border-b-tertiary border-b-1 text-xl sm:text-3xl'>
 								Experience
